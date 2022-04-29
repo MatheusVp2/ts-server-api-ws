@@ -6,6 +6,7 @@ import { Server } from "socket.io";
 const app = express();
 
 app.use(cors());
+app.use(express.json())
 
 const serverHttp = http.createServer(app);
 const io = new Server(serverHttp, {

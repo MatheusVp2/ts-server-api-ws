@@ -1,17 +1,18 @@
+
 /**
  * Importa o serverHttp configurado.
  */
-import { serverHttp } from "./services/http";
+import { serverHttp } from "./serverless/http";
 
 /**
  * Importando o Socket.
  */
-import "./services/websocket";
+import "./serverless/websocket";
 
 /**
  * Importando a API.
  */
-import "./services/api";
+import "./serverless/api";
 
 /**
  * Inicializa o servidor http.
